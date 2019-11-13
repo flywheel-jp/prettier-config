@@ -1,15 +1,16 @@
-# `@flywheel-jp/prettier-config`
+# @flywheel-jp/prettier-config
 
-Shared [Prettier](https://prettier.io/) config for [FLYWHEEL](https://flywheel.jp/).
-## Usage
+> Shared [Prettier](https://prettier.io/) config for [FLYWHEEL](https://flywheel.jp/).
 
-Install:
+## Installation
 
 ```
 $ yarn add --dev @flywheel-jp/prettier-config
 ```
 
-Edit `package.json`:
+## Usage
+
+Once the `@flywheel-jp/prettier-config` package is installed, you can use it by specifying the package in the `prettier` section of your package.json.
 
 ```jsonc
 {
@@ -17,6 +18,8 @@ Edit `package.json`:
     "prettier": "@flywheel-jp/prettier-config"
 }
 ```
+
+### Overwrite properties
 
 If you need to overwrite some properties, import the file in a `.prettierrc.js` file and export the modifications, e.g:
 
@@ -33,3 +36,9 @@ module.export = {
     ]
 }
 ```
+
+In this case, you need to remove the `prettier` section from your package.json.
+
+## License
+
+MIT © FLYWHEEL Inc.

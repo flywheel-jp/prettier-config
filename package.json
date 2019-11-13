@@ -1,8 +1,12 @@
 {
   "name": "@flywheel-jp/prettier-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared Prettier config for FLYWHEEL Inc.",
   "main": "index.json",
   "repository": "git@github.com:flywheel-jp/prettier-config.git",
-  "author": "Yuku Takahashi <yuku@flywheel.jp>"
+  "license": "MIT",
+  "author": "Yuku Takahashi <yuku@flywheel.jp>",
+  "peerDependencies": {
+    "prettier": "^1.18.2"
+  }
 }
