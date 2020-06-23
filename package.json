@@ -3,10 +3,14 @@
   "version": "0.2.0",
   "description": "Shared Prettier config for FLYWHEEL Inc.",
   "main": "index.json",
-  "repository": "git@github.com:flywheel-jp/prettier-config.git",
+  "repository": "https://github.com/flywheel-jp/prettier-config",
+  "homepage": "https://github.com/flywheel-jp/prettier-config",
   "license": "MIT",
   "author": "Yuku Takahashi <yuku@flywheel.jp>",
   "peerDependencies": {
     "prettier": "^2.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
