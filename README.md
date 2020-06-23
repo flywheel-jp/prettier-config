@@ -2,6 +2,8 @@
 
 > Shared [Prettier](https://prettier.io/) config for [FLYWHEEL](https://flywheel.jp/).
 
+[![npm version](https://badge.fury.io/js/@flywheel-jp%2Fprettier-config.svg)](http://badge.fury.io/js/@flywheel-jp%2Fprettier-config)
+
 ## Installation
 
 ```
