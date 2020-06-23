@@ -1,6 +1,6 @@
 {
   "name": "@flywheel-jp/prettier-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Shared Prettier config for FLYWHEEL Inc.",
   "main": "index.json",
   "repository": "https://github.com/flywheel-jp/prettier-config",
